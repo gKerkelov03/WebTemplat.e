@@ -1,17 +1,17 @@
-﻿{
+{
   "format": 1,
   "restore": {
-    "D:\\repos\\Template\\Template\\Template.Web.ViewModels\\Template.Web.ViewModels.csproj": {}
+    "D:\\repos\\templ\\WebTemplate\\Template.Web.ViewModels\\Template.Web.ViewModels.csproj": {}
   },
   "projects": {
-    "D:\\repos\\Template\\Template\\Template.Web.ViewModels\\Template.Web.ViewModels.csproj": {
+    "D:\\repos\\templ\\WebTemplate\\Template.Web.ViewModels\\Template.Web.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\Template\\Template\\Template.Web.ViewModels\\Template.Web.ViewModels.csproj",
+        "projectUniqueName": "D:\\repos\\templ\\WebTemplate\\Template.Web.ViewModels\\Template.Web.ViewModels.csproj",
         "projectName": "Template.Web.ViewModels",
-        "projectPath": "D:\\repos\\Template\\Template\\Template.Web.ViewModels\\Template.Web.ViewModels.csproj",
+        "projectPath": "D:\\repos\\templ\\WebTemplate\\Template.Web.ViewModels\\Template.Web.ViewModels.csproj",
         "packagesPath": "C:\\Users\\35989\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\Template\\Template\\Template.Web.ViewModels\\obj\\",
+        "outputPath": "D:\\repos\\templ\\WebTemplate\\Template.Web.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\35989\\AppData\\Roaming\\NuGet\\NuGet.Config",

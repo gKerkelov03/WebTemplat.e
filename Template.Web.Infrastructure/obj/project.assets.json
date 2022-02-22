@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 3,
   "targets": {
     "net5.0": {}
@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\Template\\Template\\Template.Web.Infrastructure\\Template.Web.Infrastructure.csproj",
+      "projectUniqueName": "D:\\repos\\templ\\WebTemplate\\Template.Web.Infrastructure\\Template.Web.Infrastructure.csproj",
       "projectName": "Template.Web.Infrastructure",
-      "projectPath": "D:\\repos\\Template\\Template\\Template.Web.Infrastructure\\Template.Web.Infrastructure.csproj",
+      "projectPath": "D:\\repos\\templ\\WebTemplate\\Template.Web.Infrastructure\\Template.Web.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\35989\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\Template\\Template\\Template.Web.Infrastructure\\obj\\",
+      "outputPath": "D:\\repos\\templ\\WebTemplate\\Template.Web.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\35989\\AppData\\Roaming\\NuGet\\NuGet.Config",

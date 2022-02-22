@@ -1,4 +1,4 @@
-﻿namespace ForumSystem.Services.Mapping
+﻿namespace Template.Services.Mapping
 {
     // ReSharper disable once UnusedTypeParameter
     public interface IMapFrom<T>

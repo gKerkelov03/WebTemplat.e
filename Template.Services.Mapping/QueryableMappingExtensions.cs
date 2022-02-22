@@ -1,4 +1,4 @@
-﻿namespace ForumSystem.Services.Mapping
+﻿namespace Template.Services.Mapping
 {
     using System;
     using System.Linq;

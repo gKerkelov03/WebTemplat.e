@@ -1,8 +1,8 @@
-﻿{
+{
   "version": 2,
-  "dgSpecHash": "NWVPirzPEopdQqj8G1VZ0iBbd0nqjAIda8V2Au1JqZF6Uygg02CNdB3msk0hvP1xIZNYfiRMHkXhwYlmkaGTzA==",
+  "dgSpecHash": "tCwZex6YYh+W18v8hNuzyip011AyJWgBDN6tBhsxvNukRnvm0P/Vg0mlZ+Owz7ytMBqZDG7Ky/6FZ5TvDcZeAQ==",
   "success": true,
-  "projectFilePath": "D:\\repos\\Template\\Template\\Template.Data.Common\\Template.Data.Common.csproj",
+  "projectFilePath": "D:\\repos\\templ\\WebTemplate\\Template.Data.Common\\Template.Data.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

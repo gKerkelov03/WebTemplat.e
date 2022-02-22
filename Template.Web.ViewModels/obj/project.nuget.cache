@@ -1,8 +1,8 @@
-﻿{
+{
   "version": 2,
-  "dgSpecHash": "CpLAhCr0HwrQl/6uR4aNEZeRWB89QHy7MH/qLBARZqCGxU2SMp2+HUD0xR982f2oJHMqbWK4bl68nP0RLE7CYA==",
+  "dgSpecHash": "S1Tci3dMCos6U6MPmtDaeZICuFTtjgSaEoXiXwqHsdLw0/UZCZgxEC8Xg+Gv8Q3JIcx5bj5xCxR5T3Jk1w03lA==",
   "success": true,
-  "projectFilePath": "D:\\repos\\Template\\Template\\Template.Web.ViewModels\\Template.Web.ViewModels.csproj",
+  "projectFilePath": "D:\\repos\\templ\\WebTemplate\\Template.Web.ViewModels\\Template.Web.ViewModels.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

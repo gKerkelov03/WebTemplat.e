@@ -1,17 +1,17 @@
-﻿{
+{
   "format": 1,
   "restore": {
-    "D:\\repos\\Template\\Template\\Template.Services.Mapping\\Template.Services.Mapping.csproj": {}
+    "D:\\repos\\templ\\WebTemplate\\Template.Services.Mapping\\Template.Services.Mapping.csproj": {}
   },
   "projects": {
-    "D:\\repos\\Template\\Template\\Template.Services.Mapping\\Template.Services.Mapping.csproj": {
+    "D:\\repos\\templ\\WebTemplate\\Template.Services.Mapping\\Template.Services.Mapping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\Template\\Template\\Template.Services.Mapping\\Template.Services.Mapping.csproj",
+        "projectUniqueName": "D:\\repos\\templ\\WebTemplate\\Template.Services.Mapping\\Template.Services.Mapping.csproj",
         "projectName": "Template.Services.Mapping",
-        "projectPath": "D:\\repos\\Template\\Template\\Template.Services.Mapping\\Template.Services.Mapping.csproj",
+        "projectPath": "D:\\repos\\templ\\WebTemplate\\Template.Services.Mapping\\Template.Services.Mapping.csproj",
         "packagesPath": "C:\\Users\\35989\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\Template\\Template\\Template.Services.Mapping\\obj\\",
+        "outputPath": "D:\\repos\\templ\\WebTemplate\\Template.Services.Mapping\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\35989\\AppData\\Roaming\\NuGet\\NuGet.Config",

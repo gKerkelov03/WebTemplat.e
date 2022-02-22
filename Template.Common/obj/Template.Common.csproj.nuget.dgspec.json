@@ -1,17 +1,17 @@
-﻿{
+{
   "format": 1,
   "restore": {
-    "D:\\repos\\Template\\Template\\Template.Common\\Template.Common.csproj": {}
+    "D:\\repos\\templ\\WebTemplate\\Template.Common\\Template.Common.csproj": {}
   },
   "projects": {
-    "D:\\repos\\Template\\Template\\Template.Common\\Template.Common.csproj": {
+    "D:\\repos\\templ\\WebTemplate\\Template.Common\\Template.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\Template\\Template\\Template.Common\\Template.Common.csproj",
+        "projectUniqueName": "D:\\repos\\templ\\WebTemplate\\Template.Common\\Template.Common.csproj",
         "projectName": "Template.Common",
-        "projectPath": "D:\\repos\\Template\\Template\\Template.Common\\Template.Common.csproj",
+        "projectPath": "D:\\repos\\templ\\WebTemplate\\Template.Common\\Template.Common.csproj",
         "packagesPath": "C:\\Users\\35989\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\Template\\Template\\Template.Common\\obj\\",
+        "outputPath": "D:\\repos\\templ\\WebTemplate\\Template.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\35989\\AppData\\Roaming\\NuGet\\NuGet.Config",

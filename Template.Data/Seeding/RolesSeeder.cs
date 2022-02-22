@@ -1,11 +1,11 @@
-﻿namespace ForumSystem.Data.Seeding
+﻿namespace Template.Data.Seeding
 {
     using System;
     using System.Linq;
     using System.Threading.Tasks;
 
-    using ForumSystem.Common;
-    using ForumSystem.Data.Models;
+    using Template.Common;
+    using Template.Data.Models;
 
     using Microsoft.AspNetCore.Identity;
     using Microsoft.Extensions.DependencyInjection;

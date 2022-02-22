@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 3,
   "targets": {
     "net5.0": {}
@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\Template\\Template\\Template.Services.Data\\Template.Services.Data.csproj",
+      "projectUniqueName": "D:\\repos\\templ\\WebTemplate\\Template.Services.Data\\Template.Services.Data.csproj",
       "projectName": "Template.Services.Data",
-      "projectPath": "D:\\repos\\Template\\Template\\Template.Services.Data\\Template.Services.Data.csproj",
+      "projectPath": "D:\\repos\\templ\\WebTemplate\\Template.Services.Data\\Template.Services.Data.csproj",
       "packagesPath": "C:\\Users\\35989\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\Template\\Template\\Template.Services.Data\\obj\\",
+      "outputPath": "D:\\repos\\templ\\WebTemplate\\Template.Services.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\35989\\AppData\\Roaming\\NuGet\\NuGet.Config",
