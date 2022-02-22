@@ -1,4 +1,4 @@
-﻿namespace ForumSystem.Data.Seeding
+﻿namespace Template.Data.Seeding
 {
     using System;
     using System.Threading.Tasks;
