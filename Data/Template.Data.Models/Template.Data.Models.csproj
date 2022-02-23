@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Template.Common\Template.Common.csproj" />
+    <ProjectReference Include="..\Template.Data.Common\Template.Data.Common.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -4,4 +4,15 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Template.Common\Template.Common.csproj" />
+    <ProjectReference Include="..\..\Data\Template.Data.Common\Template.Data.Common.csproj" />
+    <ProjectReference Include="..\..\Data\Template.Data\Template.Data.csproj" />
+    <ProjectReference Include="..\..\Services\Template.Services.Data\Template.Services.Data.csproj" />
+    <ProjectReference Include="..\..\Services\Template.Services.Mapping\Template.Services.Mapping.csproj" />
+    <ProjectReference Include="..\..\Services\Template.Services\Template.Services.csproj" />
+    <ProjectReference Include="..\Template.Web.Infrastructure\Template.Web.Infrastructure.csproj" />
+    <ProjectReference Include="..\Template.Web.ViewModels\Template.Web.ViewModels.csproj" />
+  </ItemGroup>
+
 </Project>
