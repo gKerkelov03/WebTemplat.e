@@ -1,1 +1,0 @@
-copy pase those files in your working directory. Make sure your path does not contain the string Template because that will throw an error
