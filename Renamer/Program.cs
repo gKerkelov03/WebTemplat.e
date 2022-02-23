@@ -58,6 +58,8 @@
 
         private static void RenameDirectories(string currentDirectory, string originalName, string newName)
         {
+            if (currentDirectory.Contains(".git") || currentDirectory.Contains(".vs")) return;
+
             var directories = Directory.GetDirectories(currentDirectory);
             foreach (var directory in directories)
             {
@@ -77,6 +79,9 @@
 
         private static void RenameFiles(string currentDirectory, string originalName, string newName)
         {
+            if (currentDirectory.Contains(".git") || currentDirectory.Contains(".vs")) return;
+
+            
             var files = Directory.GetFiles(currentDirectory);
             foreach (var file in files)
             {
@@ -88,7 +93,6 @@
             }
 
             var subDirectories = Directory.GetDirectories(currentDirectory);
-           
             foreach (var directory in subDirectories)
             {
                 RenameFiles(directory, originalName, newName);
@@ -97,6 +101,8 @@
 
         private static void RenameFileContents(string currentDirectory, string originalName, string newName)
         {
+            if (currentDirectory.Contains(".git") || currentDirectory.Contains(".vs")) return;
+
             var files = Directory.GetFiles(currentDirectory);
             foreach (var file in files)
             {
