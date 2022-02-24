@@ -1,7 +1,8 @@
-﻿namespace Template.Data.Seeding
+﻿using System;
+using System.Threading.Tasks;
+
+namespace Template.Data.Seeding
 {
-    using System;
-    using System.Threading.Tasks;
 
     public interface ISeeder
     {

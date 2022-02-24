@@ -1,15 +1,15 @@
-﻿namespace Template.Data.Seeding
-{
-    using System;
-    using System.Linq;
-    using System.Threading.Tasks;
+﻿using System;
+using System.Linq;
+using System.Threading.Tasks;
 
-    using Template.Common;
-    using Template.Data.Models;
+using Template.Common;
+using Template.Data.Models;
 
-    using Microsoft.AspNetCore.Identity;
-    using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.DependencyInjection;
 
+namespace Template.Data.Seeding
+{   
     internal class RolesSeeder : ISeeder
     {
         public async Task SeedAsync(ApplicationDbContext dbContext, IServiceProvider serviceProvider)

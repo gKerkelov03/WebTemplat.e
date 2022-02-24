@@ -12,6 +12,10 @@ using System.Threading.Tasks;
 using Template.Data;
 using Template.Data.Models;
 using Microsoft.AspNetCore.Identity;
+using Template.Data.Seeding;
+using Template.Services.Mapping;
+using Template.Web.Models;
+using System.Reflection;
 
 namespace Template.Web
 {
@@ -45,6 +49,21 @@ namespace Template.Web
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            AutoMapperConfig.RegisterMappings(typeof(ErrorViewModel).GetTypeInfo().Assembly);
+
+            // Seed data on application startup
+            using (var serviceScope = app.ApplicationServices.CreateScope())
+            {
+                var dbContext = serviceScope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+
+                if (env.IsDevelopment())
+                {
+                    dbContext.Database.Migrate();
+                }
+
+                new ApplicationDbContextSeeder().SeedAsync(dbContext, serviceScope.ServiceProvider).GetAwaiter().GetResult();
+            }
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
