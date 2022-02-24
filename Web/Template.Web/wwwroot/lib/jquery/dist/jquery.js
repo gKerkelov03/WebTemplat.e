@@ -1,4 +1,4 @@
-﻿/*!
+/*!
  * jQuery JavaScript Library v3.5.1
  * https://jquery.com/
  *
@@ -623,7 +623,7 @@ var i,
 		".*" +
 		")\\)|)",
 
-	// Templateding and non-escaped trailing whitespace, capturing some non-whitespace characters preceding the latter
+	// Leading and non-escaped trailing whitespace, capturing some non-whitespace characters preceding the latter
 	rwhitespace = new RegExp( whitespace + "+", "g" ),
 	rtrim = new RegExp( "^" + whitespace + "+|((?:^|[^\\\\])(?:\\\\.)*)" +
 		whitespace + "+$", "g" ),
