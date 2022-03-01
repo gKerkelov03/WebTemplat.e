@@ -16,6 +16,7 @@ using Template.Data.Seeding;
 using Template.Services.Mapping;
 using Template.Web.Models;
 using System.Reflection;
+using CloudinaryDotNet;
 
 namespace Template.Web
 {
@@ -37,6 +38,12 @@ namespace Template.Web
             services.AddDefaultIdentity<ApplicationUser>(IdentityOptionsProvider.GetIdentityOptions)
                 .AddRoles<ApplicationRole>().AddEntityFrameworkStores<ApplicationDbContext>();
 
+            Account cloudinaryCredentials = new Account(
+                this.Configuration["Cloudinary:CloudName"],
+                this.Configuration["Cloudinary:ApiKey"],
+                this.Configuration["Cloudinary:ApiSecret"]);
+
+            Cloudinary cloudinaryUtility = new Cloudinary(cloudinaryCredentials);
 
             services.AddResponseCaching();
             services.AddResponseCompression(options =>
