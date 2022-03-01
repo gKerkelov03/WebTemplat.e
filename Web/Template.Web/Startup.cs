@@ -17,6 +17,8 @@ using Template.Services.Mapping;
 using Template.Web.Models;
 using System.Reflection;
 using CloudinaryDotNet;
+using Template.Web.BindingModels;
+using Template.Services.Models;
 
 namespace Template.Web
 {
@@ -58,7 +60,10 @@ namespace Template.Web
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            AutoMapperConfig.RegisterMappings(typeof(ErrorViewModel).GetTypeInfo().Assembly);
+            AutoMapperConfig.RegisterMappings(
+                typeof(ErrorViewModel).GetTypeInfo().Assembly,
+                typeof(LoginBindingModel).GetTypeInfo().Assembly,
+                typeof(LoginServiceModel).GetTypeInfo().Assembly);
 
             // Seed data on application startup
             using (var serviceScope = app.ApplicationServices.CreateScope())
