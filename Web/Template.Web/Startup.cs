@@ -27,7 +27,9 @@ namespace Template.Web
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+
         }
+
 
         
         public void ConfigureServices(IServiceCollection services)
@@ -43,8 +45,8 @@ namespace Template.Web
                 this.Configuration["Cloudinary:ApiKey"],
                 this.Configuration["Cloudinary:ApiSecret"]);
 
-            Cloudinary cloudinaryUtility = new Cloudinary(cloudinaryCredentials);
-
+            Cloudinary cloudinaryUtility = new Cloudinary(cloudinaryCredentials);           
+            
             services.AddResponseCaching();
             services.AddResponseCompression(options =>
             {
