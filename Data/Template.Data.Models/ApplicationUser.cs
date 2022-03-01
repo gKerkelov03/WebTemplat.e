@@ -21,6 +21,7 @@ namespace Template.Data.Models
         public virtual ICollection<IdentityUserRole<string>> Roles { get; set; }
 
         public virtual ICollection<IdentityUserClaim<string>> Claims { get; set; }
+        public string Test { get; set; }
 
         public virtual ICollection<IdentityUserLogin<string>> Logins { get; set; }
     }
