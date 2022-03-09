@@ -19,7 +19,6 @@
     <ProjectReference Include="..\..\Common\Template.Common\Template.Common.csproj" />
     <ProjectReference Include="..\..\Data\Template.Data.Models\Template.Data.Models.csproj" />
     <ProjectReference Include="..\..\Data\Template.Data\Template.Data.csproj" />
-    <ProjectReference Include="..\..\Services\Template.Services.Data\Template.Services.Data.csproj" />
     <ProjectReference Include="..\..\Services\Template.Services.Mapping\Template.Services.Mapping.csproj" />
     <ProjectReference Include="..\..\Services\Template.Services.Models\Template.Services.Models.csproj" />
     <ProjectReference Include="..\..\Services\Template.Services\Template.Services.csproj" />

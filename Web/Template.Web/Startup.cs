@@ -19,6 +19,7 @@ using System.Reflection;
 using CloudinaryDotNet;
 using Template.Web.BindingModels;
 using Template.Services.Models;
+using Template.Web.Infrastructure.Extensions;
 
 namespace Template.Web
 {
@@ -55,7 +56,12 @@ namespace Template.Web
                 options.EnableForHttps = true;
             });
 
+
+            services.AddConventionalServices();
+            services.AddTransient<Cloudinary, Cloudinary>();
+
             services.AddControllersWithViews();
+            services.AddRazorPages();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -100,6 +106,8 @@ namespace Template.Web
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+                endpoints.MapRazorPages();
             });
         }
     }

@@ -3,7 +3,7 @@
 namespace Template.Data.Common
 {
 
-    public abstract class BaseDeletableModel<TKey> : BaseModel<TKey>, IDeletableEntity
+    public abstract class BaseDeletableEntity<TKey> : BaseEntity<TKey>, IDeletableEntity
     {
         public bool IsDeleted { get; set; }
 

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Template.Data.Common
 {
-    public abstract class BaseModel<TKey> 
+    public abstract class BaseEntity<TKey> 
     {
         [Key]
         public TKey Id { get; set; }

@@ -3,17 +3,18 @@ using System.Threading.Tasks;
 using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
 using Microsoft.AspNetCore.Http;
+using Template.Services.Common;
+using Template.Services.Contracts;
 
-namespace Stopify.Services
+namespace Template.Services
 {
     public class CloudinaryService : ICloudinaryService
     {
         private readonly Cloudinary cloudinaryUtility;
 
         public CloudinaryService(Cloudinary cloudinaryUtility)
-        {
-            this.cloudinaryUtility = cloudinaryUtility;
-        }
+            => this.cloudinaryUtility = cloudinaryUtility;
+        
 
         public async Task<string> UploadPictureAsync(IFormFile pictureFile, string fileName)
         {
@@ -31,7 +32,7 @@ namespace Stopify.Services
             {
                 ImageUploadParams uploadParams = new ImageUploadParams
                 {
-                    Folder = "product_images",
+                    Folder = "Template",
                     File = new FileDescription(fileName, ms)
                 };
 
