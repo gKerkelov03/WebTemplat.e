@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Template.Web.Models;
+using Template.Web.ViewModels;
 
 namespace Template.Web.Controllers
 {

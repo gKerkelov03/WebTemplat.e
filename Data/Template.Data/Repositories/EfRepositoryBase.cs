@@ -9,10 +9,10 @@ using Microsoft.EntityFrameworkCore;
 namespace Template.Data.Repositories
 {
 
-    public class EfRepository<TEntity> : IRepository<TEntity>
+    public class EfRepositoryBase<TEntity> : IEFRepository<TEntity>
         where TEntity : class
     {
-        public EfRepository(ApplicationDbContext context)
+        public EfRepositoryBase(ApplicationDbContext context)
         {
             this.Context = context ?? throw new ArgumentNullException(nameof(context));
             this.DbSet = this.Context.Set<TEntity>();

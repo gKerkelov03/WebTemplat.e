@@ -3,10 +3,10 @@ using Template.Services.Contracts;
 
 namespace Template.Web
 {
-    public class IndexModel : PageModel
+    public class TestPage : PageModel
     {
         private IRandomService randomService;
-        public IndexModel(IRandomService randomService)
+        public TestPage(IRandomService randomService)
         {
             this.randomService = randomService;
         }

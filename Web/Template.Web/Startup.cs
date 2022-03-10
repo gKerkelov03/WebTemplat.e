@@ -8,7 +8,7 @@ using Template.Data;
 using Template.Data.Models;
 using Template.Data.Seeding;
 using Template.Services.Mapping;
-using Template.Web.Models;
+using Template.Web.ViewModels;
 using System.Reflection;
 using CloudinaryDotNet;
 using Template.Web.BindingModels;

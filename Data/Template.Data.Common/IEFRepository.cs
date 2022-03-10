@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace Template.Data.Common
 {
-    public interface IRepository<TEntity> : IDisposable
+    public interface IEFRepository<TEntity> : IDisposable
         where TEntity : class
     {
         IQueryable<TEntity> All();

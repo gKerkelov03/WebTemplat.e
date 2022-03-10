@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Services.Models", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Web", "Web\Template.Web\Template.Web.csproj", "{F644490D-3D80-48AA-BE21-839A2D16B1AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Web.Infrastructure", "Web\Template.Web.Infrastructure\Template.Web.Infrastructure.csproj", "{080042C4-33D5-48FE-83CA-DECE0621B0F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Web.Infrastructure", "Web\Template.Web.Infrastructure\Template.Web.Infrastructure.csproj", "{080042C4-33D5-48FE-83CA-DECE0621B0F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

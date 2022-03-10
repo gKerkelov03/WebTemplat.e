@@ -3,12 +3,11 @@ using System.Threading.Tasks;
 using Template.Services.Contracts;
 
 namespace Template.Web.Infrastructure.ViewComponents
-{
-    [ViewComponent(Name = "HelloWorld")]
-    public class HelloWorldViewComponent : ViewComponent
+{    
+    public class SampleViewComponent : ViewComponent
     {
         private readonly IRandomService dataService;
-        public HelloWorldViewComponent(IRandomService dataService)
+        public SampleViewComponent(IRandomService dataService)
         {
             this.dataService = dataService;
         }
