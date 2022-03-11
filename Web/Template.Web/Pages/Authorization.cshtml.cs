@@ -3,12 +3,10 @@ using Template.Services.Contracts;
 
 namespace Template.Web
 {
-    public class TestPage : PageModel
+    public class AuthorizationPage : PageModel
     {
-        private IRandomService randomService;
-        public TestPage(IRandomService randomService)
+        public AuthorizationPage()
         {
-            this.randomService = randomService;
         }
 
         public void OnGet()
