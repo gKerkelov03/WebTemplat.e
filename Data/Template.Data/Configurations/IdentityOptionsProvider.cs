@@ -4,7 +4,7 @@ namespace Template.Data
 {
     public static class IdentityOptionsProvider
     {
-        public static void GetIdentityOptions(IdentityOptions options)
+        public static void IdentityOptions(IdentityOptions options)
         {
             options.Password.RequireDigit = false;
             options.Password.RequireLowercase = false;

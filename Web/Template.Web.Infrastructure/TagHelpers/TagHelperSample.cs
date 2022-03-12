@@ -10,8 +10,11 @@ namespace Template.Web.Infrastructure.TagHelpers
 
         public override void Process(TagHelperContext context, TagHelperOutput output)
         {
-            string formattedMessage = string.Format(MessageFormat, this.TargetName);
-            output.Content.SetContent(formattedMessage);
+            if (!string.IsNullOrEmpty(this.TargetName))
+            {
+                string formattedMessage = string.Format(MessageFormat, this.TargetName);
+                output.Content.SetContent(formattedMessage);
+            }
         }
     }
 

@@ -1,13 +1,13 @@
 ﻿@page
-@model Template.Web.AuthorizationPage
+@model LoginPage
 @{
 }
 
 <div>
-    <h2>Movie Ticket Booking App</h2>
+    <h2>Template</h2>
     <div class="container" id="container">
         <div class="form-container sign-up-container">
-            <form>
+            <form action="/authorization" method="post">
                 <h1>Create Account</h1>
 
                 <div class="social-container">
@@ -24,11 +24,13 @@
                 <input type="password" placeholder="Password" />
                 <input type="text" placeholder="Mobile" />
 
+                <input type="hidden" value="create" />
+
                 <button onclick="signUp()">Sign Up</button>
             </form>
         </div>
         <div class="form-container sign-in-container">
-            <form>
+            <form action="/authorization" method="post">
                 <h1>Sign in</h1>
 
                 <div class="social-container">
@@ -41,6 +43,8 @@
 
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Password" />
+
+                <input type="hidden" value="login" />
 
                 <button onclick="signIn()">Sign In</button>
             </form>

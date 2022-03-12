@@ -57,18 +57,18 @@ button {
     transition: transform 80ms ease-in;
 }
 
-    button:active {
-        transform: scale(0.95);
-    }
+button:active {
+    transform: scale(0.95);
+}
 
-    button:focus {
-        outline: none;
-    }
+button:focus {
+    outline: none;
+}
 
-    button.ghost {
-        background-color: transparent;
-        border-color: #ffffff;
-    }
+button.ghost {
+    background-color: transparent;
+    border-color: #ffffff;
+}
 
 form {
     background-color: #ffffff;
@@ -216,13 +216,13 @@ input {
     margin: 20px 0;
 }
 
-    .social-container a {
-        border: 1px solid #dddddd;
-        border-radius: 50%;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 5px;
-        height: 40px;
-        width: 40px;
-    }
+.social-container a {
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+}
