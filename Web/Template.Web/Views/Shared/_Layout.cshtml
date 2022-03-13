@@ -13,19 +13,19 @@
 </head>
 <body>
      <header>
-         <div>Template</div>    
+        <div>Template</div>    
         <ul class="navbar">
             <li><a asp-controller="Home" asp-action="Index">Home</a></li>
-            <li><a asp-controller="Home" asp-action="AboutUs">About Us</a></li>
+            <li><a asp-controller="Home" asp-action="About">About Us</a></li>
             <li><a asp-controller="Home" asp-action="Dashboard">Dashboard</a></li>
-            <li><a asp-controller="Profile" asp-action="My">Profile</a></li>
+            <li><a asp-controller="Profile" asp-action="Index">Profile</a></li>
         </ul>
         <div class="header-btn">
-            <a href="#" class="sign-up">Sign Up</a>
-            <a href="#" class="sign-in">Sign In</a>
+            <a asp-page="/Account/Login" class="sign-up">Sign Up</a>
+            <a asp-page="/Account/Login" 
+            class="sign-in">Sign In</a>
         </div>
     </header>
-
 
 
     <div class="container">
@@ -34,10 +34,8 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - Template.Web
-        </div>
+    <footer>
+        <div class="container"> &copy; 2022 - Template. </div>
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

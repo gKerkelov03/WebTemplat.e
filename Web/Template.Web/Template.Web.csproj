@@ -32,4 +32,8 @@
     <ProjectReference Include="..\Template.Web.ViewModels\Template.Web.ViewModels.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\js\" />
+  </ItemGroup>
+
 </Project>

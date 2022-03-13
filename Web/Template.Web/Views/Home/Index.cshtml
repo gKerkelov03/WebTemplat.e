@@ -2,9 +2,11 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4" target-name="Template user">Welcome</h1>    
-    <partial name="_SamplePartialView" />     
-    <vc:sample></vc:sample>
-    @*@await Component.InvokeAsync("Sample")   *@
-</div>
+@for (int i = 0; i < 20; i++)
+{
+    <div class="text-center">
+        <h1 target-name="Template dev">Welcome</h1>
+        <partial name="_SamplePartialView" />
+        <vc:sample name="gosho"></vc:sample>
+    </div>
+}

@@ -10,12 +10,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Data\Template.Data.Models\Template.Data.Models.csproj" />
     <ProjectReference Include="..\..\Services\Template.Services\Template.Services.csproj" />
     <ProjectReference Include="..\Template.Web.ViewModels\Template.Web.ViewModels.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Areas\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.3" />
   </ItemGroup>
   
 

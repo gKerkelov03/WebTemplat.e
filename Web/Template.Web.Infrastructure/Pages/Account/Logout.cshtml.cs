@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Threading.Tasks;
 using Template.Data.Models;
 
-namespace Template.Web.Pages;
+namespace Template.Web.Infrastructure.Pages;
 
 public class LogoutPage : PageModel
 {

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Template.Data.Models;
 using Template.Services.Contracts;
 
-namespace Template.Web.Pages
+namespace Template.Web.Infrastructure.Pages
 {
     public class LoginPage : PageModel
     {
