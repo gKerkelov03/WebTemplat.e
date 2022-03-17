@@ -15,6 +15,7 @@ using System.Reflection;
 using Template.Web.BindingModels;
 using Template.Services.Models;
 using Template.Web.Infrastructure.Extensions;
+using System.Security.Claims;
 #endregion
 
 var builder = WebApplication.CreateBuilder(args);
@@ -57,7 +58,7 @@ builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
-#region SeedData
+#region Seed Data
 
 using var serviceScope = ((IApplicationBuilder)app).ApplicationServices.CreateScope();
 var dbContext = serviceScope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
@@ -100,3 +101,6 @@ app.MapRazorPages();
 #endregion
 
 app.Run();
+
+
+//builder.Services.AddAuthentication().AddCookie();

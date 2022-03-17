@@ -2,3 +2,23 @@
 @model RegisterPage
 @{
 }
+
+@section Scripts {
+    <script>
+
+        function signUp() {
+            var container = document.getElementById('container');
+            container.classList.add("right-panel-active");
+        };
+
+        function signIn() {
+            var container = document.getElementById('container');
+            container.classList.remove("right-panel-active");
+        };
+
+        if(@(ViewData["SimulateSignUpButtonClick"].ToString().ToLower())){        
+             setTimeout(signUp, 300);       
+        }
+
+    </script>
+}

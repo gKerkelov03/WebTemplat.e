@@ -1,7 +1,6 @@
-﻿namespace Template.Common
-{
-    public static class GlobalConstants
-    {        
-        public const string AdministratorRoleName = "Administrator";
-    }
+﻿namespace Template.Common;
+
+public static class GlobalConstants
+{        
+    public const string AdministratorRoleName = "Administrator";
 }

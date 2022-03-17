@@ -1,10 +1,9 @@
-﻿using System;
+﻿namespace Template.Services.Contracts;
+
+using System;
 using Template.Services.Common;
 
-namespace Template.Services.Contracts
+public interface ICurrentTimeProvider : ITransientService
 {
-    public interface ICurrentTimeProvider : ITransientService
-    {
-        DateTime Now { get; }
-    }
+    DateTime Now { get; }
 }

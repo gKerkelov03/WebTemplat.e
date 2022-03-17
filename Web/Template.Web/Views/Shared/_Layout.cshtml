@@ -6,8 +6,7 @@
 
     <title>@ViewData["Title"] - Template.Web</title>
 
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />   
     <link rel="stylesheet" href="~/css/_Layout.css" />
     <link rel="stylesheet" href="~/Template.Web.styles.css" />
 </head>
@@ -21,9 +20,8 @@
             <li><a asp-controller="Profile" asp-action="Index">Profile</a></li>
         </ul>
         <div class="header-btn">
-            <a asp-page="/Account/Login" class="sign-up">Sign Up</a>
-            <a asp-page="/Account/Login" 
-            class="sign-in">Sign In</a>
+            <a asp-page="/Account/Login" asp-route-SimulateSignUpButtonClick="true" class="sign-up">Sign Up</a>
+            <a asp-page="/Account/Login" class="sign-in"> Login</a>
         </div>
     </header>
 
@@ -35,12 +33,11 @@
     </div>
 
     <footer>
-        <div class="container"> &copy; 2022 - Template. </div>
+        <div> &copy; 2022 - Template. </div>
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>    
 
     <script src="https://kit.fontawesome.com/1faa30c684.js" crossorigin="anonymous"></script>
 

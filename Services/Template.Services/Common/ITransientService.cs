@@ -1,6 +1,5 @@
-﻿namespace Template.Services.Common
+﻿namespace Template.Services.Common;
+
+public interface ITransientService
 {
-    public interface ITransientService
-    {
-    }
 }

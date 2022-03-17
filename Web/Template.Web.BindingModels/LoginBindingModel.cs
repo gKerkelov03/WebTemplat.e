@@ -1,9 +1,8 @@
-﻿namespace Template.Web.BindingModels
-{
-    public class LoginBindingModel
-    {
-        public string Username { get; set; }
+﻿namespace Template.Web.BindingModels;
 
-        public string Password { get; set; }
-    }
+public class LoginBindingModel
+{
+    public string Username { get; set; }
+
+    public string Password { get; set; }
 }

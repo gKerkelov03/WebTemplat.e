@@ -1,12 +1,10 @@
-﻿using System;
+﻿namespace Template.Data.Common;
 
-namespace Template.Data.Common
+using System;
+
+public interface IDeletableEntity
 {
+    bool IsDeleted { get; set; }
 
-    public interface IDeletableEntity
-    {
-        bool IsDeleted { get; set; }
-
-        DateTime? DeletedOn { get; set; }
-    }
+    DateTime? DeletedOn { get; set; }
 }

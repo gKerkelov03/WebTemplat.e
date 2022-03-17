@@ -1,11 +1,9 @@
-﻿using System;
+﻿namespace Template.Data.Common;
+
 using System.ComponentModel.DataAnnotations;
 
-namespace Template.Data.Common
+public abstract class BaseEntity<TKey> 
 {
-    public abstract class BaseEntity<TKey> 
-    {
-        [Key]
-        public TKey Id { get; set; }
-    }
+    [Key]
+    public TKey Id { get; set; }
 }

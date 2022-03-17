@@ -1,9 +1,8 @@
-﻿namespace Template.Services.Mapping
-{
-    using AutoMapper;
+﻿namespace Template.Services.Mapping.Contracts;
 
-    public interface IHaveCustomMappings
-    {
-        void CreateMappings(IProfileExpression configuration);
-    }
+using AutoMapper;
+
+public interface IHaveCustomMappings
+{
+    void CreateMappings(IProfileExpression configuration);
 }

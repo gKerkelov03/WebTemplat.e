@@ -1,12 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿namespace Template.Web.Controllers;
 
-namespace Template.Web.Controllers
+using Microsoft.AspNetCore.Mvc;
+
+public class ProfileController : Controller
 {
-    public class ProfileController : Controller
-    {
-        public IActionResult Index()
-        {
-            return View();
-        }
-    }
+    public IActionResult Index() => View();
 }

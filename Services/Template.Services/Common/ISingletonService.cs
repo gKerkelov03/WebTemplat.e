@@ -1,6 +1,5 @@
-﻿namespace Template.Services.Common
+﻿namespace Template.Services.Common;
+
+public interface ISingletonService
 {
-    public interface ISingletonService
-    {
-    }
 }

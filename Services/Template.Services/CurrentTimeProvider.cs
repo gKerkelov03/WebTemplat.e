@@ -1,11 +1,9 @@
-﻿using System;
-using Template.Services.Common;
+﻿namespace Template.Services;
+
+using System;
 using Template.Services.Contracts;
 
-namespace Template.Services
+public class CurrentTimeProvider : ICurrentTimeProvider
 {
-    public class CurrentTimeProvider : ICurrentTimeProvider
-    {
-        public DateTime Now => DateTime.Now;
-    }
+    public DateTime Now => DateTime.Now;
 }
