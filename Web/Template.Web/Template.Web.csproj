@@ -39,4 +39,8 @@
     <Folder Include="Areas\Administrator\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\css\_Layout.css" />
+  </ItemGroup>
+
 </Project>

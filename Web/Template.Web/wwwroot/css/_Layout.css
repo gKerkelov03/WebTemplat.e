@@ -20,8 +20,6 @@
 
 html, body {
     min-height: 100%;
-}
-html, body {
     height: 100%;
 }
 
@@ -35,7 +33,7 @@ header {
     justify-content: space-between;
     background: #eeeff1;
     padding: 1% 7%;
-    height: 9%;
+    height: 10%;
 }
 
 
@@ -43,14 +41,14 @@ header {
     display: flex;
 }
 .navbar li {
-    position: relative;
+    position: relative;    
 }
 .navbar a {
     font-size: 1rem;
     padding: 10px 20px;
     color: var(--text-color);
     font-weight: 500;
-    text-decoration: none;
+    text-decoration: none;  
 }
 .navbar a::after{
     content: "";
