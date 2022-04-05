@@ -1,21 +1,21 @@
 ﻿
 <div>
     <h2>Template</h2>
-    <h2>@ViewData["SimulateSignUpButtonClick"]</h2>
     <div class="container" id="container">
         <div class="form-container sign-up-container">
-            <form action="/authorization" method="post">
+            <form action="/Account/Register" method="post">
                 <h1>Create Account</h1>
 
-                <div class="social-container">
+                <div class="social-container" id="social-container">
                     <a href="#" class="social"><i class="fa fa-facebook"></i></a>
                     <a href="#" class="social"><i class="fa fa-google-plus"></i></a>
                     <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
                 </div>
-
-                <span>or use your email for registration</span>
-
-                <input type="file" placeholder="Pick Image" value="asdf" />
+                
+                <label for="file-upload" class="custom-file-upload">
+                    Upload profile picture
+                </label>
+                <input id="file-upload" type="file"/>
                 <input type="text" placeholder="Name" />
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Password" />
@@ -30,7 +30,7 @@
             <form action="/account/login" method="post">
                 <h1>Login</h1>
 
-                <div class="social-container">
+                <div class="social-container" id="social-container">
                     <a href="#" class="social"><i class="fa fa-facebook"></i></a>
                     <a href="#" class="social"><i class="fa fa-google-plus"></i></a>
                     <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
