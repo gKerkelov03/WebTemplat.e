@@ -6,20 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="PartialViews\_LoginAndRegisterPartial.cshtml.css" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="PartialViews\_LoginAndRegisterPartial.cshtml.css" />
-  </ItemGroup>
-
-  <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Data\Template.Data.Models\Template.Data.Models.csproj" />
     <ProjectReference Include="..\..\Services\Template.Services\Template.Services.csproj" />
+    <ProjectReference Include="..\Template.Web.BindingModels\Template.Web.BindingModels.csproj" />
     <ProjectReference Include="..\Template.Web.ViewModels\Template.Web.ViewModels.csproj" />
   </ItemGroup>
 

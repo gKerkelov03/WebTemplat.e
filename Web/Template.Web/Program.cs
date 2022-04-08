@@ -15,7 +15,6 @@ using System.Reflection;
 using Template.Web.BindingModels;
 using Template.Services.Models;
 using Template.Web.Infrastructure.Extensions;
-using System.Security.Claims;
 #endregion
 
 var builder = WebApplication.CreateBuilder(args);
@@ -103,5 +102,3 @@ app.MapRazorPages();
 
 app.Run();
 
-
-//builder.Services.AddAuthentication().AddCookie();

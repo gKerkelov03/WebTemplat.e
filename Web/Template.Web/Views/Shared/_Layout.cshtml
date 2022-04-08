@@ -13,15 +13,13 @@
     <link rel="stylesheet" href="~/Template.Web.styles.css" />
 </head>
 <body>
-     <header>
+     <header>                  
         @if (User.Identity.IsAuthenticated)
         {
-            <div>Template logged in</div>
-        }
-        else
-        {
-            <div>Template</div>
-        }
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                <button type="submit" class="logout">Logout</button>
+            </form>
+        }                
         <ul class="navbar">
             <li><a asp-controller="Home" asp-action="Index">Home</a></li>
             <li><a asp-controller="Home" asp-action="About">About Us</a></li>
@@ -30,7 +28,7 @@
         </ul>
         <div class="header-btn">
             <a asp-page="/Account/Register" asp-route-SimulateSignUpButtonClick="true" class="sign-up">Register</a>
-            <a asp-page="/Account/Login" class="sign-in"> Login</a>
+            <a asp-page="/Account/Login" class="sign-in">Login</a>
         </div>
     </header>
 

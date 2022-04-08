@@ -11,7 +11,7 @@
             document.getElementById("social-container").style.display = "inline";
         };
 
-        if(@(ViewData["SimulateSignUpButtonClick"].ToString().ToLower())){        
+        if(@(ViewData["SimulateSignUpButtonClick"]?.ToString().ToLower())){        
              setTimeout(signUp, 0);       
         }
 

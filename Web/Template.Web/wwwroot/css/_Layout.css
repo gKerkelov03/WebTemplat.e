@@ -69,13 +69,19 @@ header {
     width: 100%;
 }
 
-
-.header-btn a {
+.header-btn a{
     padding: 10px 20px;
     color: var(--text-color);
     font-weight: 500;
 }
-
+button.logout {
+    padding: 5px 10px;
+    font-weight: 500;
+    background: var(--gradient);
+    color: #fff;
+    border: 0 solid var(--gradient); 
+    border-radius: 0.5rem;
+}
 .header-btn .sign-in {
     background: var(--gradient);
     color: #fff;
@@ -91,6 +97,7 @@ header {
     color: darkorange;
     text-decoration: none;
 }
+
 
 
 footer {
